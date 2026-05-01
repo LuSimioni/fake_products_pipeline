@@ -1,0 +1,22 @@
+
+# Ingestão
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Snowflake
+snowflake-connector-python==3.6.0
+snowflake-sqlalchemy==1.5.1
+
+# Spark
+pyspark==3.5.1
+
+# dbt
+dbt-core==1.7.0
+dbt-snowflake==1.7.0
+
+# Airflow → roda via Docker, NÃO instalar no venv local
+# Ver docker/docker-compose.yml
+
+# Utilitários
+pandas==2.2.0
+faker==24.0.0        # geração de dados sintéticos

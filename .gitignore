@@ -1,0 +1,6 @@
+# Airflow
+airflow/logs/
+airflow/plugins/
+
+# Docker / WSL
+*.log
