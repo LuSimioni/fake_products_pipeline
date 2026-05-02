@@ -75,10 +75,10 @@ ecommerce-pipeline/
 ### ✅ Etapa 1 — Setup do Ambiente
 > _Preencha ao concluir esta etapa_
 
-- [ ] Docker e Docker Compose instalados
-- [ ] Conta Snowflake criada (trial gratuito)
-- [ ] VS Code configurado com extensões (Python, dbt, Docker)
-- [ ] Repositório Git inicializado
+- [ x ] Docker e Docker Compose instalados
+- [ x ] Conta Snowflake criada (trial gratuito)
+- [ x ] VS Code configurado com extensões (Python, dbt, Docker)
+- [ x ] Repositório Git inicializado
 - [ ] Variáveis de ambiente configuradas (`.env`)
 
 **O que eu fiz:**
@@ -106,7 +106,7 @@ ecommerce-pipeline/
 ### ⬜ Etapa 3 — Orquestração com Airflow
 > _Preencha ao concluir esta etapa_
 
-- [ ] Airflow rodando via Docker Compose
+- [ x ] Airflow rodando via Docker Compose
 - [ ] DAG `ingest_dag` criada e funcional
 - [ ] DAG `transform_dag` criada e funcional
 - [ ] Dependências entre tasks configuradas
