@@ -1,0 +1,14 @@
+
+version: 2
+
+sources:
+  - name: staging
+    database: ECOMMERCE_DB
+    schema: STAGING
+    tables:
+      - name: STG_PRODUCTS
+        description: "Produtos limpos pelo Spark (Bronze → Silver)"
+      - name: STG_USERS
+        description: "Usuários limpos pelo Spark (Bronze → Silver)"
+      - name: STG_ORDERS
+        description: "Pedidos limpos pelo Spark (Bronze → Silver)"
